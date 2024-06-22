@@ -1,0 +1,11 @@
+{
+  "item.simply_powerups.flight_powerup": "Creative Flight Power Up",
+  "block.simply_powerups.block_of_sugar": "Block Of Sugar",
+  "item.simply_powerups.mob_heart": "Mob Heart",
+  "item.simply_powerups.flight_core": "Flight Core",
+  "item.simply_powerups.speed_gem": "Speed Gem",
+  "item.simply_powerups.speed_powerup_1": "Tier 1 Speed Power Up",
+  "item.simply_powerups.power_up_base": "Power Up Base",
+  "item.simply_powerups.health_powerup_1": "Tier 1 Health Power Up",
+  "curios.identifier.powerup_slot": "Power Up"
+}

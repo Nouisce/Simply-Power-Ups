@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "powerups",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "simply_powerups:mob_heart"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "simply_powerups:power_up_base"
+    }
+  },
+  "result": {
+    "item": "simply_powerups:health_powerup_1",
+    "count": 1
+  }
+}

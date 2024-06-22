@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "simply_powerups:block/sugarblocktex2",
+    "up": "simply_powerups:block/sugarblocktex1",
+    "north": "simply_powerups:block/sugarblocktex1",
+    "east": "simply_powerups:block/sugarblocktex2",
+    "south": "simply_powerups:block/sugarblocktex1",
+    "west": "simply_powerups:block/sugarblocktex2",
+    "particle": "simply_powerups:block/sugarblocktex1"
+  },
+  "render_type": "solid"
+}

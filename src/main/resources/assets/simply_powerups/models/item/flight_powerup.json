@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "simply_powerups:item/flight_baub_tex"
+  }
+}

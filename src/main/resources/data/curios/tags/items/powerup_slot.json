@@ -1,0 +1,10 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "simply_powerups:health_powerup_1",
+    "simply_powerups:speed_powerup_1",
+    "simply_powerups:flight_powerup",
+    "simply_powerups:power_up_base"
+  ]
+}

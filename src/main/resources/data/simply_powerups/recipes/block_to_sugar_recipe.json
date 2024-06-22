@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "powerups",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "simply_powerups:block_of_sugar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sugar",
+    "count": 9
+  }
+}

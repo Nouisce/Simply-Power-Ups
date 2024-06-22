@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="simply_powerups"
+version="0.5.5"
+displayName="Simply Power Ups"
+displayURL="https://www.youtube.com/@Nouisce"
+logoFile="logo.png"
+credits="."
+authors="Nouisce"
+description="A Simple Power Ups Mod!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.simply_powerups]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.simply_powerups]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.simply_powerups]]
+    modId="curios_api"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
