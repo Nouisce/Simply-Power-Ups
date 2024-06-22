@@ -12,11 +12,9 @@ public class FlightPowerupBaubleIsEquippedProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(SimplyPowerupsModItems.FLIGHT_POWERUP.get(), lv).isPresent() : false) {
-			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = true;
-				_player.onUpdateAbilities();
-			}
+		if (entity instanceof Player _player) {
+			_player.getAbilities().mayfly = (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(SimplyPowerupsModItems.FLIGHT_POWERUP.get(), lv).isPresent() : false == true);
+			_player.onUpdateAbilities();
 		}
 	}
 }

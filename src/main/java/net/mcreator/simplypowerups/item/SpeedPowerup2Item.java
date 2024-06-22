@@ -8,21 +8,21 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.simplypowerups.procedures.HealthPowerup1BaubleIsUnequippedProcedure;
-import net.mcreator.simplypowerups.procedures.HealthPowerup1BaubleIsEquippedProcedure;
+import net.mcreator.simplypowerups.procedures.SpeedPowerup2BaubleIsUnequippedProcedure;
+import net.mcreator.simplypowerups.procedures.SpeedPowerup2BaubleIsEquippedProcedure;
 
-public class HealthPowerup1Item extends Item implements ICurioItem {
-	public HealthPowerup1Item() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+public class SpeedPowerup2Item extends Item implements ICurioItem {
+	public SpeedPowerup2Item() {
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
 	public void onEquip(SlotContext slotContext, ItemStack prevStack, ItemStack stack) {
-		HealthPowerup1BaubleIsEquippedProcedure.execute(slotContext.entity());
+		SpeedPowerup2BaubleIsEquippedProcedure.execute(slotContext.entity());
 	}
 
 	@Override
 	public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
-		HealthPowerup1BaubleIsUnequippedProcedure.execute(slotContext.entity());
+		SpeedPowerup2BaubleIsUnequippedProcedure.execute(slotContext.entity());
 	}
 }

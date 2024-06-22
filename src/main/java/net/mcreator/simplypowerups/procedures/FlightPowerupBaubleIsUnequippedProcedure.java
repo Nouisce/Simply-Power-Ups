@@ -14,7 +14,7 @@ public class FlightPowerupBaubleIsUnequippedProcedure {
 			return;
 		if (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(SimplyPowerupsModItems.FLIGHT_POWERUP.get(), lv).isPresent() : false) {
 			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = false;
+				_player.getAbilities().mayfly = true;
 				_player.onUpdateAbilities();
 			}
 		}

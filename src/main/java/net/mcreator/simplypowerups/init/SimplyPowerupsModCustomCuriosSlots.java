@@ -13,6 +13,6 @@ import net.minecraft.resources.ResourceLocation;
 public class SimplyPowerupsModCustomCuriosSlots {
 	@SubscribeEvent
 	public static void enqueueIMC(final InterModEnqueueEvent event) {
-		InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("powerup_slot").icon(new ResourceLocation("curios:slot/curios_slot_gui")).size(5).build());
+		InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("powerup_slot").icon(new ResourceLocation("curios:slot/curios_slot_gui")).size(4).build());
 	}
 }
