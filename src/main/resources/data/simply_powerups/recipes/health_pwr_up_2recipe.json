@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "simply_powerups:compressed_heart"
+  },
+  "addition": {
+    "item": "simply_powerups:health_powerup_1"
+  },
+  "result": {
+    "item": "simply_powerups:health_powerup_2"
+  }
+}

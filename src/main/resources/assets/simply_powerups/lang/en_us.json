@@ -1,11 +1,21 @@
 {
   "item.simply_powerups.flight_powerup": "Creative Flight Power Up",
+  "item.simply_powerups.compressed_heart": "Reinforced Heart",
+  "item.simply_powerups.power_up_base": "Power Up Base",
+  "item.simply_powerups.reinforced_wardenheart": "Reinforced Warden Heart",
+  "item.simply_powerups.warden_heart": "Warden Heart",
+  "curios.identifier.powerup_slot": "Power Up",
   "block.simply_powerups.block_of_sugar": "Block Of Sugar",
   "item.simply_powerups.mob_heart": "Mob Heart",
+  "item.simply_powerups.dragon_claw": "Dragon\u0027s Claw",
   "item.simply_powerups.flight_core": "Flight Core",
   "item.simply_powerups.speed_gem": "Speed Gem",
   "item.simply_powerups.speed_powerup_1": "Tier 1 Speed Power Up",
-  "item.simply_powerups.power_up_base": "Power Up Base",
-  "item.simply_powerups.health_powerup_1": "Tier 1 Health Power Up",
-  "curios.identifier.powerup_slot": "Power Up"
+  "item.simply_powerups.speed_powerup_2": "Tier 2 Speed Power Up",
+  "item.simply_powerups.health_power_up_3": "Tier 3 Health Power Up",
+  "item.simply_powerups.speed_powerup_3": "Tier 3 Speed Power Up",
+  "item.simply_powerups.tier_2speedgem": "Tier 2 Speed Gem",
+  "item.simply_powerups.health_powerup_2": "Tier 2 Health Power Up",
+  "item.simply_powerups.speed_gem_3": "Tier 3 Speed Gem",
+  "item.simply_powerups.health_powerup_1": "Tier 1 Health Power Up"
 }

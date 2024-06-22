@@ -3,23 +3,20 @@
   "group": "powerups",
   "category": "misc",
   "pattern": [
+    "aaa",
     "aba",
-    "bcb",
-    "aba"
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "simply_powerups:dragon_claw"
+      "item": "simply_powerups:mob_heart"
     },
     "b": {
-      "item": "minecraft:nether_star"
-    },
-    "c": {
-      "item": "minecraft:elytra"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {
-    "item": "simply_powerups:flight_core",
+    "item": "simply_powerups:compressed_heart",
     "count": 1
   }
 }

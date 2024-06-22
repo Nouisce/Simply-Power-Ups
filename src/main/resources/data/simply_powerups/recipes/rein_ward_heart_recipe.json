@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "addition": {
+    "item": "simply_powerups:warden_heart"
+  },
+  "result": {
+    "item": "simply_powerups:reinforced_wardenheart"
+  }
+}

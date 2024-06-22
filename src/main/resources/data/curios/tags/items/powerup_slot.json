@@ -5,6 +5,10 @@
     "simply_powerups:health_powerup_1",
     "simply_powerups:speed_powerup_1",
     "simply_powerups:flight_powerup",
-    "simply_powerups:power_up_base"
+    "simply_powerups:power_up_base",
+    "simply_powerups:health_powerup_2",
+    "simply_powerups:health_power_up_3",
+    "simply_powerups:speed_powerup_2",
+    "simply_powerups:speed_powerup_3"
   ]
 }
