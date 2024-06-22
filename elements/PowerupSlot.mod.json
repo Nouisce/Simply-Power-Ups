@@ -1,0 +1,9 @@
+{
+  "_fv": 60,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "curios_slot_gui.png",
+    "name": "Power Up",
+    "amount": 4
+  }
+}
