@@ -18,7 +18,7 @@ Gives player creative flight while worn.
 
 **Information**
 
-This mod is very early in development but I have big plans for it. Power ups do not stack, you will need to upgrade them to a higher tier for a higher effect. Currently there are only 3 power ups and only one tier of power ups. So far all of the power ups are very self explanitory. Higher tier power ups require the use of a smithing table and netherite upgrade template. Please use jei to see recipies.
+This mod is very early in development and will probably never be finished. Power ups do not stack, you will need to upgrade them to a higher tier for a higher effect. Currently there are only 3 power ups. So far all of the power ups are very self explanitory. Higher tier power ups require the use of a smithing table and netherite upgrade template. Please use jei to see recipies.
 
 **Mob Hearts** ![heart](https://cdn.modrinth.com/data/cached_images/589bb39d7c078e6a5bd7b7a78e7cbff719d6b72d.png)
 
@@ -43,3 +43,4 @@ Speed gems are craftable items used to make speed power ups.
 **Known Issues**
 
 - When unequipping a flight power up you will keep the ability to fly until you relog or die
+(Fixed in 0.5.6 for neoforge havent figured out a way to fix it in forge)
