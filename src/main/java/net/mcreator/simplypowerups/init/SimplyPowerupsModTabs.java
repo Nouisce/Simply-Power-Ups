@@ -31,6 +31,8 @@ public class SimplyPowerupsModTabs {
 			tabData.accept(SimplyPowerupsModItems.COMPRESSED_HEART.get());
 			tabData.accept(SimplyPowerupsModItems.TIER_2SPEEDGEM.get());
 			tabData.accept(SimplyPowerupsModItems.WARDEN_HEART.get());
+			tabData.accept(SimplyPowerupsModItems.SPEED_GEM_3.get());
+			tabData.accept(SimplyPowerupsModItems.REACH_GEM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SimplyPowerupsModItems.HEALTH_POWERUP_1.get());
 			tabData.accept(SimplyPowerupsModItems.SPEED_POWERUP_1.get());
@@ -41,6 +43,11 @@ public class SimplyPowerupsModTabs {
 			tabData.accept(SimplyPowerupsModItems.SPEED_POWERUP_2.get());
 			tabData.accept(SimplyPowerupsModItems.SPEED_POWERUP_3.get());
 			tabData.accept(SimplyPowerupsModItems.REINFORCED_WARDENHEART.get());
+			tabData.accept(SimplyPowerupsModItems.ATTACK_SPEED_PWR_1.get());
+			tabData.accept(SimplyPowerupsModItems.ATTACK_SPEED_PWR_2.get());
+			tabData.accept(SimplyPowerupsModItems.ATTACK_SPEED_PWR_3.get());
+			tabData.accept(SimplyPowerupsModItems.REACH_POWER_1.get());
+			tabData.accept(SimplyPowerupsModItems.STEP_ASSIST_PWR.get());
 		}
 	}
 }

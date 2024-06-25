@@ -1,21 +1,19 @@
 package net.mcreator.simplypowerups.procedures;
 
-import top.theillusivec4.curios.api.CuriosApi;
-
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-
-import net.mcreator.simplypowerups.init.SimplyPowerupsModItems;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 public class FlightPowerupBaubleIsUnequippedProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity lv ? CuriosApi.getCuriosHelper().findEquippedCurio(SimplyPowerupsModItems.FLIGHT_POWERUP.get(), lv).isPresent() : false) {
-			if (entity instanceof Player _player) {
-				_player.getAbilities().mayfly = true;
-				_player.onUpdateAbilities();
+		{
+			Entity _ent = entity;
+			if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/attribute @p neoforge:creative_flight base set 0");
 			}
 		}
 	}

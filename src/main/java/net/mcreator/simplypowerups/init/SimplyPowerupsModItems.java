@@ -15,12 +15,15 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.simplypowerups.item.WardenHeartItem;
 import net.mcreator.simplypowerups.item.Tier2speedgemItem;
+import net.mcreator.simplypowerups.item.StepAssistPwrItem;
 import net.mcreator.simplypowerups.item.SpeedPowerup3Item;
 import net.mcreator.simplypowerups.item.SpeedPowerup2Item;
 import net.mcreator.simplypowerups.item.SpeedPowerup1Item;
 import net.mcreator.simplypowerups.item.SpeedGemItem;
 import net.mcreator.simplypowerups.item.SpeedGem3Item;
 import net.mcreator.simplypowerups.item.ReinforcedWardenheartItem;
+import net.mcreator.simplypowerups.item.ReachPower1Item;
+import net.mcreator.simplypowerups.item.ReachGemItem;
 import net.mcreator.simplypowerups.item.PowerUpBaseItem;
 import net.mcreator.simplypowerups.item.MobHeartItem;
 import net.mcreator.simplypowerups.item.HealthPowerup2Item;
@@ -30,6 +33,9 @@ import net.mcreator.simplypowerups.item.FlightPowerupItem;
 import net.mcreator.simplypowerups.item.FlightCoreItem;
 import net.mcreator.simplypowerups.item.DragonClawItem;
 import net.mcreator.simplypowerups.item.CompressedHeartItem;
+import net.mcreator.simplypowerups.item.AttackSpeedPwr3Item;
+import net.mcreator.simplypowerups.item.AttackSpeedPwr2Item;
+import net.mcreator.simplypowerups.item.AttackSpeedPwr1Item;
 import net.mcreator.simplypowerups.SimplyPowerupsMod;
 
 public class SimplyPowerupsModItems {
@@ -52,6 +58,12 @@ public class SimplyPowerupsModItems {
 	public static final DeferredHolder<Item, Item> WARDEN_HEART = REGISTRY.register("warden_heart", () -> new WardenHeartItem());
 	public static final DeferredHolder<Item, Item> REINFORCED_WARDENHEART = REGISTRY.register("reinforced_wardenheart", () -> new ReinforcedWardenheartItem());
 	public static final DeferredHolder<Item, Item> SPEED_GEM_3 = REGISTRY.register("speed_gem_3", () -> new SpeedGem3Item());
+	public static final DeferredHolder<Item, Item> ATTACK_SPEED_PWR_1 = REGISTRY.register("attack_speed_pwr_1", () -> new AttackSpeedPwr1Item());
+	public static final DeferredHolder<Item, Item> ATTACK_SPEED_PWR_2 = REGISTRY.register("attack_speed_pwr_2", () -> new AttackSpeedPwr2Item());
+	public static final DeferredHolder<Item, Item> ATTACK_SPEED_PWR_3 = REGISTRY.register("attack_speed_pwr_3", () -> new AttackSpeedPwr3Item());
+	public static final DeferredHolder<Item, Item> REACH_POWER_1 = REGISTRY.register("reach_power_1", () -> new ReachPower1Item());
+	public static final DeferredHolder<Item, Item> REACH_GEM = REGISTRY.register("reach_gem", () -> new ReachGemItem());
+	public static final DeferredHolder<Item, Item> STEP_ASSIST_PWR = REGISTRY.register("step_assist_pwr", () -> new StepAssistPwrItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
